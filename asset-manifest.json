@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/app-mediapipe-hands-demo/static/css/main.aaf80f57.chunk.css",
+    "main.js": "/app-mediapipe-hands-demo/static/js/main.50ddcdcd.chunk.js",
+    "main.js.map": "/app-mediapipe-hands-demo/static/js/main.50ddcdcd.chunk.js.map",
+    "runtime-main.js": "/app-mediapipe-hands-demo/static/js/runtime-main.45cba60a.js",
+    "runtime-main.js.map": "/app-mediapipe-hands-demo/static/js/runtime-main.45cba60a.js.map",
+    "static/js/2.dc05881c.chunk.js": "/app-mediapipe-hands-demo/static/js/2.dc05881c.chunk.js",
+    "static/js/2.dc05881c.chunk.js.map": "/app-mediapipe-hands-demo/static/js/2.dc05881c.chunk.js.map",
+    "static/js/3.a2cf8875.chunk.js": "/app-mediapipe-hands-demo/static/js/3.a2cf8875.chunk.js",
+    "static/js/3.a2cf8875.chunk.js.map": "/app-mediapipe-hands-demo/static/js/3.a2cf8875.chunk.js.map",
+    "index.html": "/app-mediapipe-hands-demo/index.html",
+    "static/css/main.aaf80f57.chunk.css.map": "/app-mediapipe-hands-demo/static/css/main.aaf80f57.chunk.css.map",
+    "static/js/2.dc05881c.chunk.js.LICENSE.txt": "/app-mediapipe-hands-demo/static/js/2.dc05881c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45cba60a.js",
+    "static/js/2.dc05881c.chunk.js",
+    "static/css/main.aaf80f57.chunk.css",
+    "static/js/main.50ddcdcd.chunk.js"
+  ]
+}
