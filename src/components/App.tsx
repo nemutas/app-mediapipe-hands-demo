@@ -17,7 +17,7 @@ export const App: VFC = () => {
 	const resultsRef = useRef<any>(null)
 
 	/**
-	 *  人差し指と人差し指の間に円を描く
+	 *  人差し指の先端と人差し指の先端の間に円を描く
 	 * @param ctx
 	 * @param handLandmarks
 	 */
