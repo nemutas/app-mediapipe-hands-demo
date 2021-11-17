@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/app-mediapipe-hands-demo/static/css/main.aaf80f57.chunk.css",
-    "main.js": "/app-mediapipe-hands-demo/static/js/main.0f4505c6.chunk.js",
-    "main.js.map": "/app-mediapipe-hands-demo/static/js/main.0f4505c6.chunk.js.map",
+    "main.js": "/app-mediapipe-hands-demo/static/js/main.f6ce38b5.chunk.js",
+    "main.js.map": "/app-mediapipe-hands-demo/static/js/main.f6ce38b5.chunk.js.map",
     "runtime-main.js": "/app-mediapipe-hands-demo/static/js/runtime-main.45cba60a.js",
     "runtime-main.js.map": "/app-mediapipe-hands-demo/static/js/runtime-main.45cba60a.js.map",
     "static/js/2.cc27bfff.chunk.js": "/app-mediapipe-hands-demo/static/js/2.cc27bfff.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.45cba60a.js",
     "static/js/2.cc27bfff.chunk.js",
     "static/css/main.aaf80f57.chunk.css",
-    "static/js/main.0f4505c6.chunk.js"
+    "static/js/main.f6ce38b5.chunk.js"
   ]
 }
