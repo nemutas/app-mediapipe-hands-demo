@@ -14,7 +14,7 @@ import { drawCanvas } from '../utils/drawCanvas';
 export const App: VFC = () => {
 	const webcamRef = useRef<Webcam>(null)
 	const canvasRef = useRef<HTMLCanvasElement>(null)
-	const resultsRef = useRef<any>(null)
+	const resultsRef = useRef<Results>()
 
 	/**
 	 * 検出結果（フレーム毎に呼び出される）
@@ -58,7 +58,7 @@ export const App: VFC = () => {
 
 	/** 検出結果をconsoleに出力する */
 	const OutputData = () => {
-		const results = resultsRef.current as Results
+		const results = resultsRef.current!
 		console.log(results.multiHandLandmarks)
 	}
 
