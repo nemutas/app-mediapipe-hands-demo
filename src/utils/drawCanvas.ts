@@ -21,8 +21,8 @@ export const drawCanvas = (ctx: CanvasRenderingContext2D, results: Results) => {
 	if (results.multiHandLandmarks) {
 		// 骨格の描画
 		for (const landmarks of results.multiHandLandmarks) {
-			drawConnectors(ctx, landmarks, HAND_CONNECTIONS, { color: '#00FF00', lineWidth: 1 })
-			drawLandmarks(ctx, landmarks, { color: '#FF0000', lineWidth: 1, radius: 2 })
+			drawConnectors(ctx, landmarks, HAND_CONNECTIONS, { color: '#00FF00', lineWidth: 5 })
+			drawLandmarks(ctx, landmarks, { color: '#FF0000', lineWidth: 1, radius: 5 })
 		}
 		// 円の描画
 		drawCircle(ctx, results.multiHandLandmarks)
@@ -46,7 +46,7 @@ const drawCircle = (ctx: CanvasRenderingContext2D, handLandmarks: NormalizedLand
 		const r = Math.sqrt(Math.pow(x1 - x2, 2) + Math.pow(y1 - y2, 2)) / 2
 
 		ctx.strokeStyle = '#0082cf'
-		ctx.lineWidth = 3
+		ctx.lineWidth = 5
 		ctx.beginPath()
 		ctx.arc(x, y, r, 0, Math.PI * 2, true)
 		ctx.stroke()

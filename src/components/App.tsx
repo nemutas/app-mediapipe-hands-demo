@@ -62,12 +62,6 @@ export const App: VFC = () => {
 		console.log(results.multiHandLandmarks)
 	}
 
-	const videoConstraints = {
-		width: 1280,
-		height: 720,
-		facingMode: 'user'
-	}
-
 	return (
 		<div className={styles.container}>
 			{/* capture */}
@@ -78,10 +72,10 @@ export const App: VFC = () => {
 				height={720}
 				ref={webcamRef}
 				screenshotFormat="image/jpeg"
-				videoConstraints={videoConstraints}
+				videoConstraints={{ width: 1280, height: 720, facingMode: 'user' }}
 			/>
 			{/* draw */}
-			<canvas ref={canvasRef} className={styles.canvas} />
+			<canvas ref={canvasRef} className={styles.canvas} width={1280} height={720} />
 			{/* output */}
 			<div className={styles.buttonContainer}>
 				<button className={styles.button} onClick={OutputData}>
